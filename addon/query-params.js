@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import Mixin from '@ember/object/mixin';
 import { HAS_PARACHUTE, PARACHUTE_META } from './-private/symbols';
 import ParachuteMeta from './-private/parachute-meta';
 import queryParamsStateFor from './-private/state';
@@ -6,14 +7,12 @@ import queryParamsStateFor from './-private/state';
 const {
   get,
   set,
-  Mixin,
   assign,
   assert,
   isEmpty,
   computed,
   isPresent,
   setProperties,
-  NAME_KEY
 } = Ember;
 
 const { keys } = Object;
@@ -289,8 +288,6 @@ export default class QueryParams {
         QueryParams.setDefaultValue(this, key, defaultValue);
       }
     });
-
-    ControllerMixin[NAME_KEY] = 'Parachute';
 
     return ControllerMixin;
   }
