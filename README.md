@@ -3,6 +3,14 @@
 [![Build Status](https://travis-ci.org/offirgolan/ember-parachute.svg?branch=master)](https://travis-ci.org/offirgolan/ember-parachute)
 [![npm version](https://badge.fury.io/js/ember-parachute.svg)](http://badge.fury.io/js/ember-parachute)
 
+## Why Outdoorsy Cloned This Repo
+
+This was originally cloned to add features that would enable our Intercom setup to work in Internet Explorer. We no longer use Intercom, and the changes in [bb3f3fe](https://github.com/outdoorsy/ember-parachute/commit/bb3f3fe03a3b66f403d6556ac1410875a63f77e9) have been incrorporated into the current version of `ember-parachute`.
+
+We are working on removing this add-on from the frontend codebase and switching over to the release version of `ember-parachute`.
+
+**PLEASE DO NOT USE THIS ADDON**
+
 ## <img src="https://i.imgur.com/HaN5cCc.png" alt="ember-parachute" width="30"> Philosophy
 
 `ember-parachute` is an addon that improves upon the experience of working with
